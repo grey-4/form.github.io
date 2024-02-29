@@ -1,27 +1,31 @@
 <html>
 <style>
   body {
+      display: flex;
+      justify-content: center;
       align-items: center;
-      background: "url(https://i.imgflip.com/2wo085.jpg)";
+      background-image: url("https://i.imgflip.com/2wo085.jpg");
   }
   button {
      width: 100px;
      height: 30px;
   }
   .d2 {
+      border-radius: 12px;
       width: 500px;
-      height: 700px;
-      background: gray;
-      margin: 220px;
-  }
-  .d1 {
-      margin: 30px;
+      height: 350px;
+      padding: 30px;
+      background: grey;
+      opacity: 0.9;
+   }
+  .d2:hover {
+      background: #181616;
+      opacity: 1;
   }
 </style>
   <body id="bgc">
     <div class="d2">
-        <div class="d1">
-    <h1>Simple two operant calc</h1>
+    <h1 style="color: white;">Simple two operant calc</h1>
     <p><input type="text" id="fop"placeholder="Enter first operant"><br></p>
     <p><input type="text" id="sop" placeholder="Enter second operant"><br></p>
     <select id="opt">
@@ -33,9 +37,8 @@
         <option value="concat">concatenation</option>
     </select>
     <p><button onclick="solve()" >Calculate</button><br></p>
-    <input id="ans" type="text" ></p>
-        </div>
-        </div>
+    <p><input id="ans" type="text" ></p>
+    </div>
     <script>
       function solve(){
         var operant1 = parseInt(document.getElementById("fop").value);
