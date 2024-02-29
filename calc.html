@@ -57,7 +57,9 @@
         var solution = operant1 % operant2;
         }
         else if(option == "concat"){
-        var solution = toString(operant1) + toString(operant2);
+        var str1 = String(operant1);
+        var str2 = String(operant2);
+        var solution = str1 + str2;
         }
         document.getElementById("ans").value=solution;
       }
