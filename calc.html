@@ -1,0 +1,66 @@
+<html>
+<style>
+  body {
+      align-items: center;
+      background: "url(https://i.imgflip.com/2wo085.jpg)";
+  }
+  button {
+     width: 100px;
+     height: 30px;
+  }
+  .d2 {
+      width: 500px;
+      height: 700px;
+      background: gray;
+      margin: 220px;
+  }
+  .d1 {
+      margin: 30px;
+  }
+</style>
+  <body id="bgc">
+    <div class="d2">
+        <div class="d1">
+    <h1>Simple two operant calc</h1>
+    <p><input type="text" id="fop"placeholder="Enter first operant"><br></p>
+    <p><input type="text" id="sop" placeholder="Enter second operant"><br></p>
+    <select id="opt">
+        <option value="plus">addition</option>
+        <option value="minus">subtraction</option>
+        <option value="star">multiplication</option>
+        <option value="div">division</option>
+        <option value="rem">remainder</option>
+        <option value="concat">concatenation</option>
+    </select>
+    <p><button onclick="solve()" >Calculate</button><br></p>
+    <input id="ans" type="text" ></p>
+        </div>
+        </div>
+    <script>
+      function solve(){
+        var operant1 = parseInt(document.getElementById("fop").value);
+        var operant2 = parseInt(document.getElementById("sop").value);
+        var option = document.getElementById("opt").value;
+        if(option == "plus"){
+        var solution = operant1 + operant2;
+        }
+        else if(option == "minus"){
+        var solution = operant1 - operant2;
+        }
+        else if(option == "star"){
+        var solution = operant1 * operant2;
+        }
+        else if(option == "div"){
+        var solution = operant1 / operant2;
+        }
+        else if(option == "rem"){
+        var solution = operant1 % operant2;
+        }
+        else if(option == "concat"){
+        var solution = toString(operant1) + toString(operant2);
+        }
+        document.getElementById("ans").value=solution;
+      }
+    </script>
+  </body>
+</html>
