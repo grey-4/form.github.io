@@ -1,0 +1,26 @@
+<html>
+<style>
+  button {
+     width: 100px;
+     height: 30px;
+  }
+</style>
+  <body id="bgc">
+    <p><label style="color: gray;">First Name : </label>
+    <input type="text" id="fn"placeholder="Enter your first name"><br></p>
+    <p><label style="color: gray;">Last Name : </label>
+    <input type="text" id="ln" placeholder="Enter your last name"><br></p>
+    <p><button onclick="alrt()" >Enter</button><br></p>
+    <p><label style="color: gray;">Your Full Name : </label>
+    <input id="fulln" type="text" ></p>
+    <script>
+      function alrt(){
+        document.getElementById("bgc").style.backgroundImage="url(https://wallpapercave.com/wp/VgqiT0d.jpg)";
+        var name1 = document.getElementById("fn").value;
+        var name2 = document.getElementById("ln").value;
+        var fullname = name1 + name2;
+        document.getElementById("fulln").value=fullname;
+      }
+    </script>
+  </body>
+</html>
