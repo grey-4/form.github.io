@@ -44,31 +44,12 @@
           <a href="https://github.com/grey-4">github</a></p></li>
         <li><p><a href="https://mail.google.com/mail/u/0/#inbox">sarath.s2022ece@sece.ac.in</a></p></li>
         <li><p><a href="https://www.linkedin.com/in/sarath-s-113b51257/">linkedin</a></p></li>
-        <li><p><input class="text" type="text" placeholder="Enter your email"></p></li>
+        <form action="https://formsubmit.co/sarath.s2022ece@sece.ac.in" method="POST">
+        <li><p><input class="text" type="email" placeholder="Enter your email" name="email"></p></li>
         <li><p><textarea class="textarea" placeholder="Enter your messege"></textarea></p></li>
         <li><p><button class="but">Send</button></p></li>
+        </form>
       </ul>
     </div>
   </body>
-      <script>
-        emailjs.init("iouZST-YlcDwZY6_8"); // Replace with your Email.js User ID
-
-        function sendEmail() {
-            const userEmail = document.getElementByClass("text").value;
-            const userMessage = document.getElementByClass("textarea").value;
-
-            const templateParams = {
-                to_email: "sarath.s2022ece@sece.ac.in", // Replace with the actual destination email address
-                user_email: userEmail,
-                user_message: userMessage
-            };
-
-            emailjs.send("service_rlprd7f", "template_3tj6vb8", templateParams)
-                .then(function(response) {
-                    console.log("Email sent successfully:", response);
-                }, function(error) {
-                    console.log("Email sending failed:", error);
-                });
-        }
-    </script>
 </html>
