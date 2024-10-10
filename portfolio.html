@@ -1,105 +1,7 @@
 <html>
   <title>portfolio</title>
-  <style>
-     html {
-       scroll-behavior: smooth;
-     }
-     body {
-        background-color: #181616;
-        font-family: 'Times New Roman', Times, serif  ;
-      }
-     
-     #myself {
-        background-color: #0a0705;
-        color: #C9B38D;
-        margin: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        border-radius: 18px;
-     }
-      #courses {
-         background-color: #0a0705;
-         color: #C9B38D;
-         margin: 10px;
-         padding-left: 30px;
-         padding-right: 30px;
-         padding-top: 30px;
-         padding-bottom: 30px;
-         border-radius: 18px;
-      }
-      #projects {
-        background-color: #0a0705;
-        color: #C9B38D;
-        margin: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        border-radius: 18px;
-      }
-      #contact {
-        background-color: #0a0705;
-        color: #C9B38D;
-        margin: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        border-radius: 18px;
-      }
-
-      a {
-        color: #C9B38D;
-      }
-
-      header {
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        background-color: #000000;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        margin-top: 0px;
-        border-radius: 18px;
-      }
-      nav {
-        padding-right: 10px;
-        padding-bottom: 10px;
-      }
-      .a1,.a2,.a3,.a4 {
-        padding-right: 25px;
-        font-size: 20px;
-        text-decoration: none;
-      }
-      
-      .a1:hover {
-        text-decoration: underline;
-      }
-
-      .a2:hover {
-        text-decoration: underline;
-      }
-
-      .a3:hover {
-        text-decoration: underline;
-      }
-
-      .a4:hover {
-        text-decoration: underline;
-      }
-
-
-      li {
-        list-style: none;
-      }
-      p {
-        font-size: 20px;   
-      }
-  </style>
+  <link href="./portfolio.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Forum" rel="stylesheet">
   <body>
     <header>
       <h1 style="color: #C9B38D; font-size: 50px;">Portfolio</h1>
@@ -107,37 +9,46 @@
         <a class="a1" href="#myself">Myself</a>
         <a class="a2" href="#courses">Courses</a>
         <a class="a3" href="#projects">Projects</a>
-        <a class="a4" href="#contact">Media</a>
+        <a class="a4" href="#contact">Contact</a>
     </nav>   
     </header>
     <div id="myself">
       <h2>Myself</h2>
-      <p>I'm Sarath,Currently pursuing B.E in Electronics and Communication Engineering.My Area of Interest is Networking and Linux.I learn things through doing projects and working on them.My hobbies are tweaking my system and reading books and comics</p>
+      <p style="font-size: 20px;">Hey there ,
+      <p id="p"> I'm Sarath</p>
+      <p>    currently pursuing B.E in Electronics and Communication Engineering.My Area of Interest is Networking and Linux.I learn things through doing projects and working on them.My hobbies are tweaking my system and reading books and comics</p>
     </div>
     <div id="courses">
       <h2>Courses</h2>
       <ul>
-        <li><p>Linux Unhatched(netacad)</p></li>
+        <li><p>Linux Unhatched (netacad)</p></li>
         <li><p>Mastering data structures using C by Abdul bari(udemy)</p></li>
-        <li><p>Introduction to java programming(udemy)</p></li>
-        <li><p>Introduction to Networking(netacad)</p></li>
-        <li><p>Linux Essentials(netacad)</p></li>
+        <li><p>Introduction to Networking (netacad)</p></li>
+        <li><p>Linux Essentials (netacad)</p></li>
       </ul>
     </div>
     <div id="projects">
       <h2>Projects</h2>
       <ul>
-        <li><p>Task Management system using java and mysql</p></li>
-        <li><p>Musique Downloader using python and spotify api</p></li>
-        <li><p>Bash script to manage wifi</p></li>
+        <li><p>Task Management system</p></li>
+        <li><p><div class="div1">A task management system for organizing and prioritizing tasks efficiently using java and mysql</div></p></li>
+        <li><p>Musique Downloader</p></li>
+        <li><p><div class="div2">A music downloader which uses spotify trac and playlist url to download songs using python and spotify api</div></p></li>
+        <li><p>Wifi Manager</p></li>
+        <li><p><div class="div3">A bash script which utilises dmenu to connect and disconnect wifi</div></p></li>
       </ul>
     </div>
     <div id="contact">
-      <h2>Media</h2>
+      <h2>Contact Me</h2>
       <ul><li><p>
           <a href="https://github.com/grey-4">github</a></p></li>
         <li><p><a href="https://mail.google.com/mail/u/0/#inbox">sarath.s2022ece@sece.ac.in</a></p></li>
         <li><p><a href="https://www.linkedin.com/in/sarath-s-113b51257/">linkedin</a></p></li>
+        <form action="https://formsubmit.co/sarath.s2022ece@sece.ac.in" method="POST">
+        <li><p><input class="text" type="email" placeholder="Enter your email" name="email"></p></li>
+        <li><p><textarea class="textarea" placeholder="Enter your messege"></textarea></p></li>
+        <li><p><button class="but">Send</button></p></li>
+        </form>
       </ul>
     </div>
   </body>
