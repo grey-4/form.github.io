@@ -48,8 +48,8 @@ body {
    border-radius: 18px;
 }
 
-a {
-   color: #242424;
+a{
+   color: #E7D7AD;
 }
 
 header {
@@ -72,6 +72,7 @@ nav {
    padding-right: 25px;
    font-size: 20px;
    text-decoration: none;
+   color: #242424;
 }
  
 .a1:hover {
@@ -109,17 +110,19 @@ p {
 }
 
 .div1,.div2,.div3 {
-    background-color: #C9B38D;
-    color: #000000;
+    background-color: #689D6A;
+    color: #242424;
     border-radius: 8px;
-    height: 25px;
-    width: 850px;
-    padding: 5px;
     font-size: 19px;
+    width: auto;
+    height: auto;
+    max-width: 1800px;
+    min-width: 300px;
+    padding: 20px;
 }
 
 .but {
-    background-color: #C9B38D;
+    background-color: #689D6A;
     height: 35px;
     width: 100px;
     border-radius: 8px;
@@ -128,15 +131,15 @@ p {
 }
 
 .but:hover {
-    background-color: #2D2C2B;
-    border: 2px solid #C9B38D;
-    color: #C9B38D;
+    background-color: #689D6A;
+    border: 2px solid #282828;
+    color: #E7D7AD;
 }
 
 .text {
-    background-color: #C9B38D;
-    color: #2D2C2B;
-    border: 2px solid #000000;
+    background-color: #689D6A;
+    color: #242424;
+    border: 2px solid #282828;
     height: 35px;
     width: 250px;
     border-radius: 8px;
@@ -152,9 +155,9 @@ p {
 }
 
 .textarea {
-    background-color: #C9B38D;
-    color: #2D2C2B;
-    border: 2px solid #000000;
+    background-color: #689D6A;
+    color: #E7D7AD;
+    border: 2px solid #282828;
     width: 250px;
     height: 60px;
     border-radius: 8px;
