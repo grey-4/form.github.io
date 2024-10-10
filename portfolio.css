@@ -2,14 +2,14 @@ html {
        scroll-behavior: smooth;
 }
 body {
-        background-color: #C9B38D;
+        background-color: #242424;
         font-family: 'Forum';
         font-weight: 100;
 }
      
 #myself {
-        background-color: #2D2C2B;
-        color: #C9B38D;
+        background-color: #282828;
+        color: #E7D7AD;
         margin: 10px;
         padding-left: 30px;
         padding-right: 30px;
@@ -18,8 +18,8 @@ body {
         border-radius: 18px;
 }
 #courses {
-    background-color: #2D2C2B;
-    color: #C9B38D;
+    background-color: #282828;
+    color: #E7D7AD;
     margin: 10px;
     padding-left: 30px;
     padding-right: 30px;
@@ -28,8 +28,8 @@ body {
     border-radius: 18px;
 }
 #projects {
-   background-color: #2D2C2B;
-   color: #C9B38D;
+   background-color: #282828;
+   color: #E7D7AD;
    margin: 10px;
    padding-left: 30px;
    padding-right: 30px;
@@ -38,8 +38,8 @@ body {
    border-radius: 18px;
 }
 #contact {
-   background-color: #2D2C2B;
-   color: #C9B38D;
+   background-color: #282828;
+   color: #E7D7AD;
    margin: 10px;
    padding-left: 30px;
    padding-right: 30px;
@@ -49,7 +49,7 @@ body {
 }
 
 a {
-   color: #C9B38D;
+   color: #E7D7AD;
 }
 
 header {
@@ -57,7 +57,7 @@ header {
    padding-right: 30px;
    padding-top: 5px;
    padding-bottom: 5px;
-   background-color: #1b1b1b;
+   background-color: #689D6A;
    margin-left: 10px;
    margin-right: 10px;
    margin-bottom: 10px;
