@@ -1,2 +1,2 @@
-# form.github.io
-hosting a static webpage using github
+# portfolio.github.io
+My portfolio with my resume and writeups (mostly ctf)
