@@ -6,7 +6,16 @@ body {
         font-family: 'Forum';
         font-weight: 100;
 }
-     
+    
+#oneaboveall {
+       justify-content: center;
+       align-content: center;
+       display: flex;
+       margin-right: 20%;
+       margin-left: 20%;
+       width: 60%;
+}
+
 #myself {
         background-color: #282828;
         color: #E7D7AD;
@@ -16,7 +25,6 @@ body {
         padding-top: 30px;
         padding-bottom: 30px;
         border-radius: 18px;
-        width: 300px;
 }
 #courses {
     background-color: #282828;
@@ -27,7 +35,6 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 18px;
-    width: 300px;
 }
 #projects {
    background-color: #282828;
@@ -38,7 +45,6 @@ body {
    padding-top: 30px;
    padding-bottom: 30px;
    border-radius: 18px;
-   width: 300px;
 }
 #contact {
    background-color: #282828;
@@ -49,7 +55,6 @@ body {
    padding-top: 30px;
    padding-bottom: 30px;
    border-radius: 18px;
-   width: 300px;
 }
 
 a{
@@ -67,7 +72,6 @@ header {
    margin-bottom: 10px;
    margin-top: 0px;
    border-radius: 18px;
-   width: 300px;
 }
 nav {
    padding-right: 10px;
